@@ -79,6 +79,11 @@ A:hover {
     color: hsl(30, 60%, 80%);
 }
 
+IMG,
+#location_map {
+    max-width: 100%;
+}
+
 #menu {
     padding: 0.2em;
     text-align: center;
@@ -153,8 +158,20 @@ UL {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (resolution: 1.5dppx) {
+    #menu {
+        font-size: 150%
+    }
+}
 
+@media only screen and (min-resolution: 2dppx) {
+    #menu {
+        font-size: 200%
+    }
+}
+
+
+@media only screen and (min-width: 35em) {
 }
 
 @media print,

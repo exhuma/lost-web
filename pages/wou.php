@@ -3,6 +3,7 @@
 <p>Lass geet et zu Mamer beim Scoutshome (109, rte. d’Arlon)</p>
 
 <iframe
+  id="location_map"
   width="600"
   height="450"
   frameborder="0"
