@@ -2,8 +2,7 @@
 <?php
 require_once("phpflickr/phpFlickr.php");
 
-die('You need to set Flickr API key, and remove this line!');
-$f = new phpFlickr("<api key>");
+$f = new phpFlickr(file_get_contents('../flickr_key.txt'));
 
 $recent = $f->photos_search(array("tags" => "mamerwiselen:event=lost2014"));
 
