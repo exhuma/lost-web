@@ -40,20 +40,20 @@
            */
           switch($_REQUEST['page']) {
             case 'wat':
-              include('pages/wat.php');
+              readfile('pages/wat.html');
               break;
             case 'wou':
-              include('pages/wou.php');
+              readfile('pages/wou.html');
               break;
             case 'umellen':
-              include('pages/umellen.php');
+              readfile('pages/umellen.html');
               break;
             case 'sossnach':
-              include('pages/sossnach.php');
+              readfile('pages/sossnach.html');
               break;
             case 'welcome':
             default:
-              include('pages/welcome.php');
+              readfile('pages/welcome.html');
               break;
           }
 
