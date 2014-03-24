@@ -24,6 +24,7 @@
           <strong><a href="<?= $PHP_SELF ?>?page=wat">lost.lu</a></strong>&nbsp;|&nbsp;
           <a href="<?= $PHP_SELF ?>?page=wou">Wou ass dat?</a>&nbsp;|&nbsp;
           <a href="<?= $PHP_SELF ?>?page=umellen">Umellen?</a>&nbsp;|&nbsp;
+          <a href="<?= $PHP_SELF ?>?page=gallery">Photoën</a>&nbsp;|&nbsp;
           <a href="<?= $PHP_SELF ?>?page=sossnach">Soss nach?</a>
         </div>
         <div id="content">
@@ -46,6 +47,9 @@
               break;
             case 'sossnach':
               readfile('pages/sossnach.html');
+              break;
+            case 'gallery':
+              include('pages/gallery.php');
               break;
             case 'welcome':
             case 'wat':
