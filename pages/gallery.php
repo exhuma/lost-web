@@ -4,7 +4,7 @@ require_once("phpflickr/phpFlickr.php");
 
 $f = new phpFlickr(trim(file_get_contents('flickr_key.txt')));
 
-$recent = $f->photos_search(array("tags" => "mamerwiselen:event=lost2014"));
+$recent = $f->photos_search(array("tags" => "mamerwiselen:event=lost2013"));
 
 foreach ($recent['photo'] as $photo) {
     $owner = $f->people_getInfo($photo['owner']);
