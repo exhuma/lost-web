@@ -21,8 +21,7 @@
         <![endif]-->
 
         <div id="menu">
-          <strong><a href="<?= $PHP_SELF ?>?page=welcome">lost.lu</a></strong>&nbsp;|&nbsp;
-          <a href="<?= $PHP_SELF ?>?page=wat">Wat ass dat?</a>&nbsp;|&nbsp;
+          <strong><a href="<?= $PHP_SELF ?>?page=wat">lost.lu</a></strong>&nbsp;|&nbsp;
           <a href="<?= $PHP_SELF ?>?page=wou">Wou ass dat?</a>&nbsp;|&nbsp;
           <a href="<?= $PHP_SELF ?>?page=umellen">Umellen?</a>&nbsp;|&nbsp;
           <a href="<?= $PHP_SELF ?>?page=sossnach">Soss nach?</a>
@@ -39,9 +38,6 @@
            * Wann een well eng Seit beisetzen, w.e.g. genau d'selwecht machen!
            */
           switch($_REQUEST['page']) {
-            case 'wat':
-              readfile('pages/wat.html');
-              break;
             case 'wou':
               readfile('pages/wou.html');
               break;
@@ -52,8 +48,9 @@
               readfile('pages/sossnach.html');
               break;
             case 'welcome':
+            case 'wat':
             default:
-              readfile('pages/welcome.html');
+              readfile('pages/wat.html');
               break;
           }
 
