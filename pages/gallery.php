@@ -2,7 +2,7 @@
 <?php
 require_once("phpflickr/phpFlickr.php");
 
-$f = new phpFlickr(file_get_contents('../flickr_key.txt'));
+$f = new phpFlickr(trim(file_get_contents('flickr_key.txt')));
 
 $recent = $f->photos_search(array("tags" => "mamerwiselen:event=lost2014"));
 
