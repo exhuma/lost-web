@@ -2,17 +2,16 @@
 <?php
 require_once("phpflickr/phpFlickr.php");
 
-$f = new phpFlickr(trim(file_get_contents('flickr_key.txt')));
+$flickr = new phpFlickr(trim(file_get_contents('flickr_key.txt')));
 
-$recent = $f->photos_search(array("tags" => "mamerwiselen:event=lost2013"));
-
-if ($recent['total'] == 0) {
+#$recent = $flickr->photos_search(array("tags" => "mamerwiselen:event=lost2013"));
+$photos = $flickr->photosets_getPhotos('72157642905812775');
+if ($photos['photoset']['total'] == 0) {
   ?>
   <p class="note">Hei ass nach näischt!</p>
   <?php
 } else {
-  foreach ($recent['photo'] as $photo) {
-      $owner = $f->people_getInfo($photo['owner']);
+  foreach ($photos['photoset']['photo'] as $photo) {
       printf("<a href=\"http://farm%s.staticflickr.com/%s/%s_%s.jpg\"><img src=\"http://farm%s.staticflickr.com/%s/%s_%s_q.jpg\" /></a>",
         $photo['farm'],
         $photo['server'],
