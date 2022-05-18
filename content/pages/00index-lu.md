@@ -7,6 +7,10 @@ Slug: lost-lu
 
 ----
 
+## [Resultater 2022]({filename}/pages/results-lu.md)
+
+----
+
 ![Logo 2022](/static/images/logo2022.png)
 
 Jiddereen, dee gär eng Nuecht dobaussen ass, gutt ze Fouss ass an och kee
