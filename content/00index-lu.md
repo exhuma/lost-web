@@ -1,17 +1,13 @@
 Title: Lost.lu
 Date: 2022-04-23 11:52:17
-Modified: 2022-04-23 11:52:19
+Modified: 2023-04-09 09:15:11
 Authors: Mamer Wiselen
 Lang: lu
 Slug: lost-lu
 
 ----
 
-## [Resultater 2022]({filename}pages/results-lu.md)
-
-----
-
-![Logo 2022](/static/images/logo2022.png)
+![Logo 2023](/static/images/logo2023.jpg)
 
 Jiddereen, dee gär eng Nuecht dobaussen ass, gutt ze Fouss ass an och kee
 Problem huet 3 Stonnen ze spéit heemzekommen, well e sech verlaf huet. :)
@@ -26,8 +22,12 @@ Et gëtt däischter, schwéier a spannend!
 E flotten Trajet mat verschiddenen Posten a Froebéi sollen och dëst Joer rëm en
 d'Challenge fir jiddereen sinn!!
 
-1x Umellen pro Grupp iwwert eisen [online formulaire](https://docs.google.com/forms/d/e/1FAIpQLSfHIPJBCPQp2P4JGSh8P9-NYa3_vMq94AEsOjrG68UNYV6WhA/viewform?usp=sf_link)
+1x Umellen pro Grupp iwwert eisen [online formulaire][form]
+
 
 Bis den 13. Mee an bis dohinner
 
  --- don't get lost ---
+
+
+[form]: https://shop.piwitschen.lu/product/lost-umellung
