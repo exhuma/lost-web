@@ -2,7 +2,7 @@ Wo ist es?
 ==========
 
 :date: 2020-01-11 10:45:44
-:modified: 2020-01-12 11:13:07
+:modified: 2023-04-09 14:01:53
 :authors: Michel Albert
 :summary: Details about the start location of the event
 :slug: where
