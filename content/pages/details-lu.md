@@ -1,13 +1,13 @@
 Title: Detailer
 Date: 2020-01-12 10:52:47
-Modified: 2020-01-12 10:52:50
+Modified: 2023-04-18 19:27:04
 Authors: Mamer Wiselen
 Summary: Zusätzliche Infos
 Lang: lu
 Slug: anything-else
 
 
-Et kascht tëschend €9 an €11 pro Persoun.
+Et kascht tëschend €10 an €12 pro Persoun.
 
 Iessen a Gedrénks gëtt et um Start, an der Mëtt an um Schluss vum Rallye.
 

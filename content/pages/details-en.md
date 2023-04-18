@@ -1,13 +1,13 @@
 Title: Anything else?
 Date: 2020-01-12 10:52:47
-Modified: 2020-01-12 10:52:50
+Modified: 2023-04-18 19:26:46
 Authors: Mamer Wiselen
 Summary: Additional Information
 Lang: en
 Slug: anything-else
 
 
-Entry fees are about €9 to €11 per person.
+Entry fees are about €10 to €12 per person.
 
 Food and beverages are available at the start and on the trail.
 

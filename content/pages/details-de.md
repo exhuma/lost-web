@@ -1,13 +1,13 @@
 Title: Sonst noch was?
 Date: 2020-01-12 10:52:47
-Modified: 2020-01-12 10:52:50
+Modified: 2023-04-18 19:26:35
 Authors: Mamer Wiselen
 Summary: Zusätzliche Infos
 Lang: de
 Slug: anything-else
 
 
-Die Eintrittspreise betragen ca. 9 bis 11 € pro Person.
+Die Eintrittspreise betragen ca. 10 bis 12 € pro Person.
 
 Für Essen und Trinken ist am Start und auf dem Weg gesorgt.
 
